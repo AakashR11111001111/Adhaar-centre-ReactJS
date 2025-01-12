@@ -1,0 +1,42 @@
+/* SearchInfo.module.css */
+.container {
+    width: 95%;
+    height: 80%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .inputContainer {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input {
+    border: 1px solid black;
+    width: 40%;
+    padding: 1rem;
+    outline: none;
+  }
+  
+  .buttonFind {
+    padding: 0.25rem 2rem;
+    background-color: #2563eb; /* Blue-700 */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .errorMessage {
+    font-size: 1.25rem;
+    color: #ef4444; /* Red-700 */
+  }
+  
+  .resultsContainer {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  

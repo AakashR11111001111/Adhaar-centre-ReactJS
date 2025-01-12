@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+  }
+  
+  .cell {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+  }
+  
+  .name {
+    width: 20%;
+  }
+  
+  .dob {
+    width: 15%;
+  }
+  
+  .aadhar {
+    width: 20%;
+  }
+  
+  .number {
+    width: 20%;
+  }
+  
+  .age {
+    width: 10%;
+  }
+  
+  .action {
+    width: 15%;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
