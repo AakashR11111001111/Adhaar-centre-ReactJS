@@ -6,8 +6,8 @@ const AddPersonDetails = ({ name, dob, aadhar, number, age, idx }) => {
   const ctx = useContext(ContextData);
 
   const deleteItem = () => {
-    const copy = ctx.arrayOfPerson.filter((_, index) => index !== idx);
-    ctx.setArrayOfPerson(copy);
+    const updatedArray = ctx.arrayOfPerson.filter((_, index) => index !== idx);
+    ctx.setArrayOsPerson(updatedArray);
   };
 
   return (
